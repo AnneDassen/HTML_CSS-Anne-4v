@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>HTML 4v Anne</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <ul id= "box" ><h2><a href="index.html">Pagina Anne</a></h2></ul>
+    </header>
+    <nav>
+      <div class="dropdown">
+        <button id="myBtn" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Main</a>
+          <div class="dropdown-p">
+            <button class="dropbtn-p">Portfolio</button>
+            <div class="dropdown-content-p">
+              <a href="level1.html">level-1</a>
+              <a href="level2.html">level-2</a>
+              <a href="level3.html">level-3</a>
+              <a href="level4.html">level-4</a>
+              <a href="level5.html">level-5</a>
+              <a href="level6.html">level-6</a>
+            </div>
+          </div>
+          <a href="sport.html">Sport</a>
+          <a href="muziek.html">Muziek</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <p class= "border">Ik heb niet heel veel verschillende sporten gedaan.
+      Ik heb ook 1 keer op een bal sport gezeten, maar daar was ik al heel slecht in.
+      Ook tijdens gym als we een balsport doen gaat het bij mij helemaal fout, omdat ik er simpel weg gewoon heel slecht in ben.
+      Hieronder staat een mooit tabeletje van de sporten die ik heb gedaan en die ik nu doe. In de 1ste rij staat de naam van de sport.
+      In de 2e rij mijn beoordeling. Als laatstes staat er in de 3e rij staat wanneer of hoe oud ik was toen ik het deed. </p>
+      <br>
+      <table>
+        <tr>
+          <th>Sport</th>
+          <th>Beoordeling</th>
+          <th>Wanneer</th>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Dans"><u>Dans</u></a><br></td>
+          <td>3/5</td>
+          <td>Ik heb dit heel lang gedaan. Van mijn 3e tot 10e.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Judo"><u>Judo</u></a></td>
+          <td>4/5</td>
+          <td>Iets van een half jaar toen ik 9 was.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Zwemsport"><u>Zwemmen</u></a></td>
+          <td>3/5</td>
+          <td>Van mijn 3e tot 10. Ik heb ook 8 zwemdiplomas. op mijn 8e ben ik een jaar gestopt.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Zeilen_(varen)"><u>Zeilen</u></a></td>
+          <td>4/5</td>
+          <td>Van mijn 7e tot 9e. Nu zeil ik alleen nog met mijn opa voor de leuk.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Taekwondo"><u>Taekwondo</u></a></td>
+          <td>2/5</td>
+          <td>Voor anderhalve maand, iets langer, toen ik 9 was.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Tennis"><u>Tennis</u></a></td>
+          <td>2/5</td>
+          <td>Toen ik 6 was voor iets van een maand. En ook nog een keer van 2 maanden toen ik 8 was.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/Wintersport"><u>Wintersport (Skieeën, Snowboarden en Schaatsen)</a></td>
+          <td>5/5</td>
+          <td>Dit heb ik sinds kleins afaan gedaan. Schaatsensinds mijn 3e denk ik. Skieeën tussen mijn 3e en 11e. En snowboarden vanaf mijn 11e tot nu.</td>
+        </tr>
+        <tr>
+          <td><a href="https://nl.wikipedia.org/wiki/BMX"><u>BMX</td>
+          <td>5/5</td>
+          <td>Vanaf mijn 11e tot nu.</td>
+        </tr>
+      </table>
+      <image class= "plaatje_bmx" src="https://iframe.leisureking.eu/if/pagina/img_popup.php?a=17107&n=1">
+
+    </section>
+    <script>
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    </script>
+  </body>
